@@ -3,10 +3,10 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "John Doe with billing account",
-  "email": "test_billing_account@example.com",
+  "name": "John Doe with kafka",
+  "email": "test_kafka@example.com",
   "address": "123 main street 123",
   "dateOfBirth": "1995-09-09",
-  "registeredDate": "2025-06-09"
+  "registeredDate": "2025-06-10"
 }
 ###
