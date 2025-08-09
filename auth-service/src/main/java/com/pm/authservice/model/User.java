@@ -9,7 +9,7 @@ import java.util.UUID;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID uuid;
+    private UUID id;
 
     @Column(unique = true, nullable = false)
     private String email;
@@ -20,12 +20,12 @@ public class User {
     @Column(nullable = false)
     private String role;
 
-    public UUID getUuid() {
-        return uuid;
+    public UUID getId() {
+        return id;
     }
 
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getEmail() {
